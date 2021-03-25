@@ -62,6 +62,9 @@ async def on_message(message):
         await  channel.send(random.choice(coin))
         await channel.send("The Winner is.....")
         await channel.send(random.choice(coin))
+        
+     if message.content.startswith("random number")
+        await channel.send(random.randint(1, 200))
 
 
 @client.event
