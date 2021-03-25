@@ -3,19 +3,13 @@ import random
 import asyncio
 from googlesearch import search
 
-
-
 TOKEN = ''
-
-
 
 
 client = discord.Client()
 
 
-
-
-responses = ["You Will Live To 100", "You Will Run In To A Wall Today", "You Will Be Over 6 Feet Tall", "You Will Be Rich"]
+responses = ["You Will Live To 100", "You Will Run In To A Wall Today", "You Will Be Over 6 Feet Tall", "You Will Be Rich", "You Will Eat Pizza Today", "You Will Win A Million Dollars"]
 
 
 coin = ["heads", "tails"]
