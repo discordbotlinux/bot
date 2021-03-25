@@ -64,8 +64,6 @@ async def on_message(message):
         await channel.send(random.choice(coin))
 
 
-async def random_number():
-    await channel.send(random.randint(1, 200))
 @client.event
 async def on_message2(message):
     if message.content.startswith('google'):
