@@ -71,7 +71,7 @@ async def on_message(message):
 
 
 @client.event
-async def on_message(message):
+async def on_message2(message):
     if message.content.startswith('google'):
         searchContent = ""
         text = str(message.content).split(' ')
